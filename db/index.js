@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const DB_URI = 'mongodb://localhost:27017/myapp';
+const DB_URI = 'mongodb://root:root1234@ds231377.mlab.com:31377/practica-construccion';
 
 function connect() {
   return new Promise((resolve, reject) => {
